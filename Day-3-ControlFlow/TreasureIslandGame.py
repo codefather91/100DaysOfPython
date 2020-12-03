@@ -25,7 +25,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 
-player_name = input("Halt! Who treads on this treacherous path? Speak thy name\n")
+player_name = input("Halt! Who treads on this treacherous path? Speak thy name")
 print(f"Welcome to the Treasure Island, {player_name}!\n")
 print(f"Locating the treasure won't be easy! One wrong move can end your quest.\nBe wary dear {player_name}\n")
 
@@ -47,7 +47,7 @@ elif l_or_r == "left":
         print(f"Great choice {player_name}, you move on in your quest!")
         print("\n\nHaving safley crossed the river, you head on forward to discover a cave.\nInside the cave, you see three doors...\none BLUE\none RED\none YELLOW\n\nSeems like another dilemma for you, brave adventurer!")
         print(f"It all comes down to this, brave {player_name}")
-        door = input("Which door will you choose?\nBLUE\nRED\nor YELLOW").lower()
+        door = input("Which door will you choose?\nBLUE\nRED\nor YELLOW\n").lower()
         if door == "red":
             print("You walk towards the red door and pull it open.\nAs soon as you open the door, you are met with a ferocious dragon, who doesn't hesisate to burn you to the ground with its magical fire!\nAlas brave adventurer, you came so close!")
             print(f"Its Game over for you, {player_name}!")
