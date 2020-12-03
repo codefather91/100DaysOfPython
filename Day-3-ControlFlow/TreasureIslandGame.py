@@ -25,7 +25,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 
-player_name = input("Halt! Who treads on this treacherous path? Speak thy name")
+player_name = input("Halt! Who treads on this treacherous path? Speak thy name\n")
 print(f"Welcome to the Treasure Island, {player_name}!\n")
 print(f"Locating the treasure won't be easy! One wrong move can end your quest.\nBe wary dear {player_name}\n")
 
