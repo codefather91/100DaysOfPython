@@ -13,8 +13,8 @@ pax = int(input("How many people to split the bill?\n"))
 
 #Calculate the total bill amount per head
 # 1st calculate the total bill amount plus the tip
-# 2nd Divide the total bill amount by the total no. of pax
-total_bill_per_head = (bill_amt + tip/bill_amt * 100) / pax
+# 2nd Divide the total bill amount by the total no. of pax and round to 2 decimal places
+total_bill_per_head = round((bill_amt + tip/bill_amt * 100) / pax, 2)
 
 #Print the calculation
 print(f"Each person should pay: ${total_bill_per_head}")
