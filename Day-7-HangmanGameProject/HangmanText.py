@@ -305,12 +305,17 @@ chances = 6
 
 win_flag = 0
 wrong_letters = []
+guess_list = []
 
 while chances > 0:
     letter_check = 0
     print(stages[chances])
     print()
     guess = input("Guess a letter: \n").lower()
+    if guess in guess_list:
+        print(f"You've already guessed {guess}, try again!\n")
+        guess = input("Guess a letter: \n").lower()
+    guess_list.append(guess)
     for i in range(len(chosen_word)):
         if chosen_word[i] == guess:
             letter_check = 1
