@@ -51,6 +51,7 @@ while attempts > 0 and guessed == 0:
 
 if attempts == 0 and guessed == 0:
     print("You were unable to guess the number!\n")
+    print(f"The number was {num}\n")
 else:
     print("You've won the guessing game!\n")
 
